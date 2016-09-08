@@ -83,6 +83,8 @@
                     return this;
                 }
             }, { offset : triggers.bottom });
+            // Immediate refresh to check responsiveness
+            refresh();
         }
 
         function calculate_positions( callback ) {
