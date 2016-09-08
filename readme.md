@@ -6,7 +6,7 @@ StickIt is a jQuery plugin for sticking things in place.
 
 Download or clone the repository, and include **dist/jquery.stickywidget.min.js** on your page.
 
-**!Important:** The plugin is dependent on [Waypoint.js](https://github.com/imakewebthings/waypoints) to control trigger points. The **dist** version is pre-compiled with waypoint.js already included, however, if you are going to build with the **src** version, you will need to include this library as well.
+**!Important:** The plugin is dependent on [Waypoints.js](https://github.com/imakewebthings/waypoints) to control trigger points. The **dist** version is pre-compiled with waypoints.js already included, however, if you are going to build with the **src** version, you will need to include this library as well.
 
 To stick something in place, simple call **StickIt** on a jQuery object:
 
