@@ -48,6 +48,7 @@
             };
             bind_events();
             calculate_positions( create_triggers );
+            refresh();
         }
 
         function bind_events() {
@@ -84,7 +85,7 @@
                 }
             }, { offset : triggers.bottom });
             // Immediate refresh to check responsiveness
-            refresh();
+
         }
 
         function calculate_positions( callback ) {
